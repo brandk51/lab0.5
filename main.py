@@ -34,3 +34,6 @@ ciph_text = str(completevalue)
 print(ciph_text)
 assert check_equals(plaintext,listvalue) #Checks if the Cipher worked correctly
 print ("Test Completed")
+
+#Difference between rindex and index
+# rindex finds the first appearance going right to left instead of left to right like index would.
